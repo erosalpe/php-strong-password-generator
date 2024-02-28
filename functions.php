@@ -7,7 +7,7 @@
         $lettereMaiuscole = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
         $specialChar = ['!', '"', '#', '$', '%', '&', "'", '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_', '`', '{', '|', '}', '~'];
         $passwordGenerata = '';
-        for( $i = 0; $i < $passwordLength - 1; $i++ ){
+        for( $i = 0; $i < $passwordLength; $i++ ){
             /*var_dump($i, $passwordGenerata);*/
             $scelta = rand(1, 4);
             switch ($scelta){
