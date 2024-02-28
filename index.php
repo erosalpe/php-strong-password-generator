@@ -35,15 +35,18 @@
                         <div class="d-flex flex-column mt-3">
                             <div>
                                 <label for="lettere">Lettere</label>
-                                <input type="checkbox" name="lettere" id="lettere">
+                                <input type="hidden" name="lettere" id="lettere" value="no">
+                                <input type="checkbox" name="lettere" id="lettere" value="si">
                             </div>
                             <div>
                                 <label for="numeri">Numeri</label>
-                                <input type="checkbox" name="numeri" id="numeri">
+                                <input type="hidden" name="numeri" id="numeri" value="no">
+                                <input type="checkbox" name="numeri" id="numeri" value="si">
                             </div>
                             <div>
                                 <label for="simboli">Simboli</label>
-                                <input type="checkbox" name="simboli" id="simboli">
+                                <input type="hidden" name="simboli" id="simboli" value="no">
+                                <input type="checkbox" name="simboli" id="simboli" value="si">
                             </div>
                         </div>
                     </div>

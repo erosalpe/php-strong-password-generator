@@ -2,6 +2,18 @@
     session_start();
     include __DIR__ . '/functions.php';
     $lunghezzaPw = $_GET['lunghezzaPw'];
+    $numeri = $_GET['numeri'];
+    $simboli = $_GET['simboli'];
+    $lettere = $_GET['lettere'];
+    if(isset($numeri)){
+        $_SESSION["numeri"] = $numeri;
+    }
+    if(isset($simboli)){
+        $_SESSION["simboli"] = $simboli;
+    }
+    if(isset($lettere)){
+        $_SESSION["lettere"] = $lettere;
+    }
     if(isset($lunghezzaPw)){
         $_SESSION["lunghezzaPw"] = $lunghezzaPw;
     }
